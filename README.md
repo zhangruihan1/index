@@ -12,3 +12,7 @@ pull('replace-3-test.json', 'replace-3-train.json', 'nlg-3-5.pt')
 ```
 
 You are going to get errors for sure if trying to pull a file that is not listed in this index.
+
+We have put two versions in the python file, where the [gdown](https://pypi.org/project/gdown/) version does not work very well for files larger than 100 MB. Thus, we took python code in this stackoverflow [answer](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive/39225039#39225039) and use it to replace gdown.
+
+The difference is that the gdown version uses a special url to download files, while the other uses the id of each file.
