@@ -1,23 +1,41 @@
+import re
 import os
 import csv
 import json
-import gdown
+import requests
 
-urls = {}
+
+# gdown version
+# import gdown
+
+# urls = {}
+# with open('index.csv', 'r') as f:
+# 	reader = csv.reader(f)	
+# 	for row in reader:
+# 		urls[row[0]] = row[1].replace("file/d/", "uc?id=").replace("/view?usp=sharing", '')
+
+# def pull(*names):
+# 	for name in names:
+# 		if not os.path.exists(name):
+# 			gdown.download(urls[name], name, quiet=False)
+# 	return None
+
+# longer version
+idRegex = re.compile(r'.*file/d/|/view.*|.*id=')
+
+ids = {}
 with open('index.csv', 'r') as f:
 	reader = csv.reader(f)	
 	for row in reader:
-		urls[row[0]] = row[1].replace("file/d/", "uc?id=").replace("/view?usp=sharing", '')
+		ids[row[0]] = idRegex.sub('', row[1])
 
 def pull(*names):
 	for name in names:
 		if not os.path.exists(name):
-			gdown.download(urls[name], name, quiet=False)
-			download_file_from_google_drive(file_id, destination)
+			download_file_from_google_drive(ids[name], name)
 	return None
 
-import requests
-
+# All codes below are taken from this StackOverflow answer: https://stackoverflow.com/a/39225039
 def download_file_from_google_drive(id, destination):
     URL = "https://docs.google.com/uc?export=download"
 
