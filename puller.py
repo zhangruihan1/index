@@ -5,9 +5,12 @@ import gdown
 
 with open('index.csv', 'r') as f:
 	reader = csv.reader(f)
-	for row in reader:
-		print(row)
+	
+urls = {}
+for row in reader:
+	urls[row[0]] = row[1].replace("file/d/", "uc?id=").replace("/view?usp=sharing", '')
 
-# url = 'https://drive.google.com/uc?id=1qj2ZPXHOC8e9d28l119kdSuyJQ2hVY1H'
-# output = 'replace-3-train.json'
-# gdown.download(url, output, quiet=False)
+def pull(name):
+	if not os.path.exists(name):
+		gdown.download(urls[name], name, quiet=False)
+	return name
