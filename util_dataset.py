@@ -1,4 +1,6 @@
+import json
 import random
+import pandas as pd
 from collections import OrderedDict
 
 def split(directory, sets = ['train', 'test'], ratio = 0.3, shuffle = 1, seed = random.randint(1, 1000)):
@@ -45,3 +47,29 @@ def concatenate(*directories, destiny = 'concatenated.json', shuffle = 1, seed =
 		g.writelines(dataset)
 
 	return len(dataset)
+
+def json2csv(directory, shuffle = False):
+	with open(directory, 'r') as f:
+		dataset = f.readlines()
+
+	if shuffle:
+		random.seed(seed)
+		random.shuffle(dataset)
+
+	df_dict = OrderedDict()
+	for x in dataset:
+		datum = json.loads(x)
+		for key, value in datum.items():
+			if key not in df_dict:
+				df_dict[key] = [value]
+			else:
+				df_dict[key].append(value)
+
+	assert len(set([len(x) for x in df_dict.values()])) == 1
+
+	# Set up the dataframe
+	df = pd.DataFrame(df_dict)
+
+	df.to_csv(directory.replace('.json', '.csv'), index = False)
+
+	return directory.replace('.json', '.csv')
