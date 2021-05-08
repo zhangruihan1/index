@@ -8,6 +8,4 @@ gloss-word.json, https://drive.google.com/file/d/1B8qUQ9LSZ_VOE5OMdn0bvaAeffArEw
 emb_128_fasttext.txt, https://drive.google.com/file/d/1RvRC0vPd2yhLsquV2a1x6zsw3J3szt2I/view?usp=sharing
 VERB_samples.json, https://drive.google.com/file/d/1-5p4Um2HWy48hCYetCE4XxtkIUh56pT_/view?usp=sharing
 nli-fasttext-news.pt, https://drive.google.com/file/d/1Tcdigcb5IACFNUgU0drgyR-vWgSq1VWH/view?usp=sharing
-fakenewsnet_md-train.pt, https://drive.google.com/file/d/15YhRVVn79oss7V3oIkMzHwDQIcZWEZ7K/view?usp=sharing
-fakenewsnet_md-valid.pt, https://drive.google.com/file/d/1ynS0vIiqc060e_4dgxPBpZ8k7pdLzLKp/view?usp=sharing
-fakenewsnet_md-test.pt, https://drive.google.com/file/d/1moL8gr83Ge8_TFjglAcAdTAND82UmkU-/view?usp=sharing
+wikitext-corpus.json, https://drive.google.com/file/d/1obOza0UqoTqa-_72tJZi-G__bGWrFMyB/view?usp=sharing
