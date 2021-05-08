@@ -1,6 +1,5 @@
 name, url
 tokenized_sentences.spacy, https://drive.google.com/file/d/1-232FLQAsbYFPOLBGAAIrqpdC6LXudmP/view?usp=sharing
-nlg-3-5.pt, https://drive.google.com/file/d/1ol6gCuioLyfZOLI9yDTrJ_OYcmvqqY2_/view?usp=sharing
 fakenewsnet_md.json, https://drive.google.com/file/d/1-A1zst3iaAQ_okpGzPexBnUw9uejv8sM/view?usp=sharing
 replace-3.json, https://drive.google.com/file/d/1--dz9Q1Mina5KCkX6EaDHYo9vSoBAAxv/view?usp=sharing
 replace-2.json, https://drive.google.com/file/d/1CFfWYX6JwDOixRzQYDxAoSQqdMQCQpjI/view?usp=sharing
@@ -8,4 +7,4 @@ gloss-word.json, https://drive.google.com/file/d/1B8qUQ9LSZ_VOE5OMdn0bvaAeffArEw
 emb_128_fasttext.txt, https://drive.google.com/file/d/1RvRC0vPd2yhLsquV2a1x6zsw3J3szt2I/view?usp=sharing
 VERB_samples.json, https://drive.google.com/file/d/1-5p4Um2HWy48hCYetCE4XxtkIUh56pT_/view?usp=sharing
 nli-fasttext-news.pt, https://drive.google.com/file/d/1Tcdigcb5IACFNUgU0drgyR-vWgSq1VWH/view?usp=sharing
-wikitext-corpus.json, https://drive.google.com/file/d/1obOza0UqoTqa-_72tJZi-G__bGWrFMyB/view?usp=sharing
+corpus_wikitext.json, https://drive.google.com/file/d/1xlBSLoLjce0CahkWb4EmP7JkFXBP_3Oe/view?usp=sharing
