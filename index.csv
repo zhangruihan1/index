@@ -4,10 +4,12 @@ fakenewsnet_md.json, https://drive.google.com/file/d/1-A1zst3iaAQ_okpGzPexBnUw9u
 corrupt-3.json, https://drive.google.com/file/d/16pZm5u9YsuL1hRX8Aost6qtNydqovru7/view?usp=sharing
 corrupt-3s.json, https://drive.google.com/file/d/1nlj3g_Aptc0mK7K7ledgK24plyPW8EEN/view?usp=sharing
 replace-3.json, https://drive.google.com/file/d/1--dz9Q1Mina5KCkX6EaDHYo9vSoBAAxv/view?usp=sharing
-replace-2.json, https://drive.google.com/file/d/1CFfWYX6JwDOixRzQYDxAoSQqdMQCQpjI/view?usp=sharing
 gloss-word.json, https://drive.google.com/file/d/1B8qUQ9LSZ_VOE5OMdn0bvaAeffArEwQS/view?usp=sharing
 emb_128_fasttext.txt, https://drive.google.com/file/d/1RvRC0vPd2yhLsquV2a1x6zsw3J3szt2I/view?usp=sharing
 VERB_samples.json, https://drive.google.com/file/d/1-5p4Um2HWy48hCYetCE4XxtkIUh56pT_/view?usp=sharing
 nli-fasttext-news.pt, https://drive.google.com/file/d/1Tcdigcb5IACFNUgU0drgyR-vWgSq1VWH/view?usp=sharing
 corpus_wikitext.json, https://drive.google.com/file/d/1xlBSLoLjce0CahkWb4EmP7JkFXBP_3Oe/view?usp=sharing
 pt-d3-10.pt, https://drive.google.com/file/d/1--aZvvTqxzoJYuHdjeRfQAWxj3hGDtK8/view?usp=sharing
+train_fitemssupports.json, https://drive.google.com/file/d/1ohXuksVpTGeHFc7bsUgnWF6TNR3S94rt/view?usp=sharing
+train_fitemsrefutes.json, https://drive.google.com/file/d/16lfb55zRmbjHW4b6AXpAISFzkGrszajP/view?usp=sharing
+train_fitemsnotenoughinfo.json, https://drive.google.com/file/d/1PZt3ANc1hnnUakPzMR-HO2Ub7ckqjB47/view?usp=sharing
