@@ -73,3 +73,16 @@ def json2csv(directory, shuffle = False):
 	df.to_csv(directory.replace('.json', '.csv'), index = False)
 
 	return directory.replace('.json', '.csv')
+
+def toy(directory, num = 100, shuffle = 1, seed = random.randint(1, 1000)):
+	with open(directory, 'r') as f:
+		dataset = f.readlines()
+
+	if shuffle:
+		random.seed(seed)
+		random.shuffle(dataset)
+
+	with open(directory.replace('.json', '-toy.json'), 'w') as f:
+		f.writelines(dataset[0:num])
+
+	return directory.replace('.json', '-toy.json')
