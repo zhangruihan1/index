@@ -67,11 +67,11 @@ def save_response_content(response, destination):
 
 import zipfile
 
-def pull_and_unzip(name):
-	try:
-		pull(name + '.zip')
-		with zipfile.ZipFile(name + '.zip', 'r') as f:
-			f.extractall('')
-	except:
-		pass
-	return name
+def pull_and_unzip(*name):
+	for name in names:
+		try:
+			pull(name + '.zip')
+			with zipfile.ZipFile(name + '.zip', 'r') as f:
+				f.extractall('')
+		except:
+			pass
