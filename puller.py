@@ -67,7 +67,7 @@ def save_response_content(response, destination):
 
 import zipfile
 
-def pull_and_unzip(*name):
+def pull_and_unzip(*names):
 	for name in names:
 		try:
 			pull(name + '.zip')
