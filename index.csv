@@ -1,20 +1,7 @@
 name, url
-tokenized_sentences.spacy, https://drive.google.com/file/d/1-232FLQAsbYFPOLBGAAIrqpdC6LXudmP/view?usp=sharing
-fakenewsnet_md.json, https://drive.google.com/file/d/1-A1zst3iaAQ_okpGzPexBnUw9uejv8sM/view?usp=sharing
-corrupt-3.json, https://drive.google.com/file/d/16pZm5u9YsuL1hRX8Aost6qtNydqovru7/view?usp=sharing
-corrupt-3s.json, https://drive.google.com/file/d/1nlj3g_Aptc0mK7K7ledgK24plyPW8EEN/view?usp=sharing
-corrupt-3ss.json, https://drive.google.com/file/d/19vwgioQu6vGEZmAnVmEU7n4XQWTLNfmV/view?usp=sharing
-corrupt-3syn.json, https://drive.google.com/file/d/1--4ssWeYsqGxukscwj65vImjmK2Hsc98/view?usp=sharing
-corrupt-syn.json, https://drive.google.com/file/d/1-HYZ-qRd0vAqM7fxzdEevWFrUKPMofX3/view?usp=sharing
-gloss-word.json, https://drive.google.com/file/d/1B8qUQ9LSZ_VOE5OMdn0bvaAeffArEwQS/view?usp=sharing
-emb_128_fasttext.txt, https://drive.google.com/file/d/1RvRC0vPd2yhLsquV2a1x6zsw3J3szt2I/view?usp=sharing
-corpus_wikitext.json, https://drive.google.com/file/d/1xlBSLoLjce0CahkWb4EmP7JkFXBP_3Oe/view?usp=sharing
-bart-3syn-3.pt, https://drive.google.com/file/d/19GUz9X_QW0K9DI5q06F2PjZaxGGbQ3cv/view?usp=sharing
-cnn_stories.tgz, https://drive.google.com/u/0/uc?export=download&confirm=i_k-&id=0BwmD_VLjROrfTHk4NFg2SndKcjQ
-cnn_dailymail.zip, https://drive.google.com/file/d/1O_9f2ak3fa79Bhtvx5bytxGtIf9_S2FF/view?usp=sharing
-cnn_dailymail_ngrams.zip, https://drive.google.com/file/d/1-16oMSoYG0p1S0NxXUBmjc0wJskfd7B9/view?usp=sharing
-cnn_dailymail_subsequence_.zip, https://drive.google.com/file/d/1-DiMdZfztIVVGLS1YPwIgzQlgClGNGnA/view?usp=sharing
-cnn_dailymail_rouge_span_test.zip, https://drive.google.com/file/d/1fqal7jb5nvq7o6pP9SVSMOQce4cxcg4J/view?usp=sharing
-cnn_dailymail_rouge_span_train_.zip, https://drive.google.com/file/d/1-1sypcfzz7GEZ3TasCEstQydaayIt8gR/view?usp=sharing
-acl18_results.tar.gz, https://drive.google.com/file/d/1m1RIc9plJD2g2fhXUvwHLRtAhTVgYFKS/view
 TPAMI2020-PiNet.zip, https://drive.google.com/file/d/1Y9250PK5aK5oxyrvWVqcQsVdfqjtFL53/view
+faces_webface_112x112.zip, https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view
+faces_umd.zip, https://drive.google.com/file/d/1azhEHoJjVmifuzBVKJwl-sDbLZ-Wzp4O/view
+faces_vgg_112x112.zip, https://drive.google.com/file/d/1dyVQ7X3d28eAcjV3s3o0MT-HyODp_v3R/view
+faces_emore.zip, https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view
+
