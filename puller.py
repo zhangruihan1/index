@@ -5,7 +5,7 @@ import json
 import requests
 
 import sys
-sys.path.append('index-for-datasets-and-models')
+sys.path.append('index')
 
 # gdown version
 # import gdown
