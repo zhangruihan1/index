@@ -4,8 +4,7 @@ import csv
 import json
 import requests
 
-import sys
-sys.path.append('index')
+
 
 # gdown version
 # import gdown
@@ -26,7 +25,7 @@ sys.path.append('index')
 idRegex = re.compile(r'.*file/d/|/view.*|.*id=')
 
 ids = {}
-with open('index.csv', 'r') as f:
+with open('index/index.csv', 'r') as f:
 	reader = csv.reader(f)	
 	for row in reader:
 		ids[row[0]] = idRegex.sub('', row[1])
