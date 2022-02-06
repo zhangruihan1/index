@@ -20,3 +20,5 @@ standard.landmark.npy, https://drive.google.com/file/d/10vAV8tW-2Hw_BEUnwla9iVKn
 vgg-landmarks-2M.tar.gz, https://drive.google.com/file/d/1S97kVZ1qMbharQ251NBVNKGK46yp6l01/view?usp=sharing
 lfw-pairs-landmarks.tar.gz, https://drive.google.com/file/d/1j37gN3o4piEtNCuo5yAgct5c--Ewex_4/view?usp=sharing
 vgg-landmarks-2M.pkl, https://drive.google.com/file/d/1sMdsn4pX6y8l76587CCFdCeUHuBVeFZ_/view?usp=sharing
+vgg-landmarks-2M-normalized.pkl, https://drive.google.com/file/d/1vzviHqf2ySio-dYLbyfEpQN6mshkHJY8/view?usp=sharing
+vgg-landmarks-2M-residual.pkl, https://drive.google.com/file/d/1--zH-0Apu4wivGFw5NaxElxcq5S85j9f/view?usp=sharing
